@@ -1,0 +1,16 @@
+class Student:
+    def __init__(self,name,score):
+        self.name = name
+        self.score = score
+        
+    def __str__(self):
+        return self.name,self.score
+
+s1 = Student("Daniel",80)  
+     
+def main():
+      print(f"{s1.name} - {s1.score}")
+      
+if __name__ == '__main__':
+    main()
+  
