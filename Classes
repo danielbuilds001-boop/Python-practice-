@@ -1,18 +1,15 @@
-class Product:
-    def __init__(self,name,price):
+class Student:
+    def __init__(self,name,score):
         self.name = name
-        self.price = price
+        self.score = score
         
     def __str__(self):
-        return f"{self.name} - R{self.price}"
-        
+        return self.name,self.score
+
+s1 = Student("Daniel",80)  
+     
 def main():
-    p1 = Product("Laptop",5999)
-    p2 = Product("Phone",3499)
-    p3 = Product("Headphones",899)
-    print(p1)
-    print(p2)
-    print(p3)
-    
+      print(f"{s1.name} - {s1.score}")
+      
 if __name__ == '__main__':
     main()
