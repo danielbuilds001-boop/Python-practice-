@@ -1,0 +1,12 @@
+response = {
+    "model": "GPT",
+    "choices": [
+        {
+            "message": {
+                "text": "Hello, how can I help?"
+            }
+        }
+    ]
+}
+
+print(response["choices"][0]["message"]["text"])
