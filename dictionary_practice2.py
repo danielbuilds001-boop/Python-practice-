@@ -50,4 +50,3 @@ def main():
 if __name__ == '__main__':
     main()
     
-Finally also any other useful termux packages
